@@ -2,43 +2,69 @@
 <html>
 <head>
 	<title>Covid Help Service</title>
-	<link rel="stylesheet" href="nicepage.css" media="screen">
+  	<link rel="stylesheet" href="nicepage.css" media="screen">
 	<link rel="stylesheet" href="Covid-Help-Service.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>    
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <style type="text/css">
-    	li{
+    	.points{
     		font-size: 150%;
 			padding-top: 2rem;
 			font-weight: 500;
 			letter-spacing: 2px
     	}
     </style>
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
 </head>
 <body>
-	<header class="u-clearfix u-header u-header" id="sec-1fd5" style="display: flex;">
-  		<a href="index.html" data-page-id="88711079" class="u-image u-logo u-image-1" data-image-width="1280" data-image-height="905" title="Home">
-        <img src="images/95157b67142d92d2ff4d1ef6db064594f40d6876a833f8ea85ce1d9c0e185db9dc45844318a82359fb314dade57c2977c08118f916b19e8e534397_1280.png" class="u-logo-image u-logo-image-1" data-image-width="152.3167">
-        </a> 
-        <a href="index.html" style="padding-right: 2rem;"><h4>Home</h4></a>
-        <a href="disclaimer.html" style="padding-right: 2rem;"><h4>Disclaimer</h4></a>
-    </header> 
-    <div style="width: 80%;margin: auto;" class="u-container-layout u-container-layout-1">
-    	<div class="u-align-left u-custom-font u-font-open-sans u-text " style="margin-left: 40%;margin-right: 40%;background: black;color: white;text-align: center;letter-spacing: 3px;font-size:100%;  "> DISCLAIMER </div>
+	 <nav class="navbar navbar-expand-lg fixed-top navbar-light " style="padding:0; background-color:#478ac9 ; font-family:sans-serif;">
+	  <a href="index.html" data-page-id="88711079" class="navbar-brand" title="Home"> 
+	  	 <img src="images/95157b67142d92d2ff4d1ef6db064594f40d6876a833f8ea85ce1d9c0e185db9dc45844318a82359fb314dade57c2977c08118f916b19e8e534397_1280.png" width="90" height="60" alt="" style="padding-left: .5rem;">
+      </a> 
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	    	<li class="nav-item ">
+	    		<a class="nav-link active" href="instructions.html"><h5>Instructions For Mild COVID-19 Cases</h5></a>
+	    	</li>
+	    </ul>
+	    <ul class="navbar-nav " style="margin-left: auto; padding-right: 2rem; margin-top: 0; margin-bottom: 0;">	
+	      <li class="nav-item " style="padding-right: 2rem;">
+	        <a class="nav-link" href="index.html"><h5>Home</h5> <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item" >
+	        <a class="nav-link" href="disclaimer.html"><h5>Disclaimer</h5></a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+    <div style="width: 80%;margin: 7rem auto; " class="u-container-layout u-container-layout-1">
+    	<div class="u-align-left u-custom-font u-font-open-sans u-text " style="margin-left: 8rem;margin-right: 8rem;background: black;color: white;text-align: center;letter-spacing: 3px;font-size:1.5rem;  "> DISCLAIMER </div>
     	<ol>
-    		<li>
+    		<li class="points">
 	            All information on this site is here only for your awareness and provided by us in good faith        
             </li>
-            <li>
+            <li class="points">
             	Nothing on this website is medical advice, so please speak to your  doctor or a health worker for needs specific to you in case you have  covid-19 or any complication arising from it. 
             </li>
-    		<li>
+    		<li class="points">
     			We have tried our best but we cannot guarantee absolute accuracy of all the information here.
     		</li>
-    		<li>
+    		<li class="points">
     			Likewise, we cannot also fully vouch for the quality of the goods or  the services mentioned here, and we are not responsible for any failing  or deficiency on the part of the goods/service provider. 
     		</li>
-    		<li>
+    		<li class="points">
     			Anything you do on the basis of information provided on this website,  or any goods and services you avail on the basis of information on this  website is at your own risk.
     		</li>
     	</ol>
